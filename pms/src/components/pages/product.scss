@@ -1,0 +1,21 @@
+.product{
+    margin: 20px;
+    box-shadow: 1px 3px #888888;
+    transition: 0.5s;
+}
+
+
+#box:hover, .card:hover{
+    font-size: large;
+    box-shadow: 0 1px 5px rgb(0, 0, 0 / 0.2);
+    background-color: rgb(255, 255, 235);
+}
+
+
+@media screen and (max-width: 720px) {
+    .card, .row{
+        display: block; 
+        width: 300px;
+    } 
+    
+}

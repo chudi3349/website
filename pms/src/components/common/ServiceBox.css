@@ -1,0 +1,19 @@
+.modal-content {
+    padding: 20px;
+}
+
+.modal-body{
+    background-color: white !important;
+}
+
+@media screen and (max-width: 720px) {
+
+.modal-content {
+    width: 360px;
+}
+
+.modal-body{
+ width: 320px;
+
+}
+}

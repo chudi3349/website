@@ -1,0 +1,73 @@
+@media only screen and (max-width: 1200px) {
+  #portfolio
+   {
+    margin-left: auto;
+    margin-right: auto;
+  }
+} 
+
+
+@media screen and (max-width: 720px ) {
+   #portfolio
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: "50%";
+    height: "50%";
+  }
+}
+
+#portfolio{
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.container{
+  position: relative;
+  
+}
+
+@media screen and (max-with: 720px) {
+  .about{
+    position: relative;
+    top: 70%;
+  }
+  
+}
+
+.about{
+  position: relative;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: rgb(12, 12, 12);
+}
+
+
+.col{
+  position: relative;
+  justify-content: center;
+}
+
+
+
+@media screen and (min-width: 820px ) {
+  .socialicon{
+    position: absolute;
+    left: 480px;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .secsocialicon{
+    position: absolute;
+    right: -55px;
+  }
+}
+
+.container{
+  margin-bottom: 50px;
+}
