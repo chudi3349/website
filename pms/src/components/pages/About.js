@@ -105,6 +105,11 @@ export default function About(props) {
                 src={Chudi}
                 alt="My_Picture"
                 />
+                <h4 style={{
+                    textAlign: 'center',
+                    justifyContent: 'center',
+                    marginTop: '20px'
+                  }}>When You Love What You Do You Are Not Working</h4>
                 <p>HI THERE! I'M </p>
                 <h1>VICTOR EJIOFOR</h1>
                 <p>I'm a hotel management software provider and a frontend react web developer.</p>

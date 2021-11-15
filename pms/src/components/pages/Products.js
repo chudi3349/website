@@ -1,6 +1,7 @@
 import React from 'react';
 import ProductCard from '../common/ProductCard';
-
+import Odoo from "../layout/images/Odoo.png";
+import Hotelt from "../layout/images/hotelt.png";
 import "./product.scss";
 import ProductsSummary from './ProductsSummary';
 import SmallResolution from './SmallResolution';
@@ -39,7 +40,7 @@ export default function Products(props) {
     return (
         <>
         <SmallResolution 
-            heading= 'love'
+            heading= 'Feel The Satisfaction'
             subheading = 'We Never go Back on Our Promise'
             className = 'products'
             alignobject= 'right_align'
@@ -48,14 +49,21 @@ export default function Products(props) {
           textAlign: 'center',
           justifyContent: 'center',
           marginTop: '20px'
-        }}>When You Love What You Do You are Not Working</h3>
+        }}>We Have What You Need</h3>
         <div className="container">
             <div className="row">
                 <div className="col-6">
-                    <ProductCard title={"First Product"} text={"This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."} />
+                    <ProductCard
+                      src={Odoo} 
+                      title={"Odoo Hotel Management WebApp"} 
+                      text={"Installation, configuration, customization, integration services and user training of ODOO Hotel management WebApp"} />
                 </div>
                  <div className="col-6">
-                    <ProductCard></ProductCard>
+                    <ProductCard
+                      src={Hotelt}
+                      title={"Hotel360 WebApp"}
+                      text={'Tailor made friendly user interface, Integration with hotel Electric locks, and many more customizations'}
+                    ></ProductCard>
                 </div>
             </div>
         </div>

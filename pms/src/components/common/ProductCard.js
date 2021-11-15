@@ -6,7 +6,14 @@ export default function ProductCard(props) {
         <div class="card mb-3 product" style={{maxWidth: "540px"}}>
             <div className="row no-gutters">
                 <div className="col-md-4">
-                <i className="far fa-address-card"></i>
+                <img 
+                    src={props.src} 
+                    alt={props.alt}
+                    style={{
+                        width:'100%',
+                        height: '100%'
+                    }} 
+                />
                 </div>
                 <div className="col-md-8">
                 <div className="card-body">

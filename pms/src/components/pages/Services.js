@@ -69,8 +69,14 @@ export default function Services(props) {
            className= 'services'
            alignobject='left_align'
           />
-            <h1>Services </h1>
-                <div className="card " style={{
+            <h3 style={{
+                textAlign: 'center',
+                justifyContent: 'center',
+                marginTop: '20px'
+              }}>
+              Unique Experience At Your Fingertips
+            </h3>
+         <div className="card " style={{
                         width: '80%',
                         marginLeft: '10%'
                     }}>
