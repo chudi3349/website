@@ -1,8 +1,9 @@
 import React from "react";
 import Cards from "./Cards";
+import Heading from "./Heading";
 import HeroSection from "./HeroSection"
-import MissionVission from "./MissionVission";
 import SumarryContent from "./SumarryContent";
+import SummaryContentTwo from "./SummaryContentTwo";
 
 
 
@@ -14,7 +15,8 @@ function Homepage() {
   return ( 
   <>
   <HeroSection/>
-  <MissionVission />
+  <Heading/>
+  <SummaryContentTwo />
   <SumarryContent />
   <Cards />
   </>

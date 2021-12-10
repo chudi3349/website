@@ -15,7 +15,7 @@ function HeroSection() {
         </HomePageButton>
       </div>
       <div className='hero-btns'>
-        <HomePageButton className='btns' buttonStyle='btn--primary' buttonSize='btn--large' linkdirectory='/register'>
+        <HomePageButton className='btns' buttonStyle='btn--primary' buttonSize='btn--large' linkdirectory='/form'>
           <h3>CONTACT US</h3>
         </HomePageButton>
       </div>

@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 const STYLES = ['btn--primary', 'btn--outline'];
 const SIZES = ['btn--medium', 'btn--large'];
-const LINKS =['/help', '/about', '/hotel360'];
+const LINKS =['/form', '/about', '/hotel360'];
 
 export const HomePageButton= ({
   children, 

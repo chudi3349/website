@@ -5,6 +5,8 @@ import "../layout/hompage/Footer.css";
 import "./About.scss";
 import SocialMediaIcon from '../common/socialMediaIcon';
 import Carosel from './Carosel';
+import Summary from '../layout/hompage/Summary';
+import MissionVission from '../layout/hompage/MissionVission';
 
 
 function debounce(fn, ms) {
@@ -75,6 +77,14 @@ function Windowresize(props){
 
 
 export default function About(props) {
+  const myContent = `
+  Our goal is to build an engaged family-like team, a happy work environment where lasting relationships 
+  and memories are created. We exist to help businesses succeed by providing management systems tailored to their 
+  unique circumastances. We believe in a balanced view of work, time for work, and time for self. Because a simple 
+  balanced life reducess work-related stress and produces better work efficiency. Are you passionate and innovative, 
+  join us and experience Work-Satisfaction.
+  `
+
   const [dimensions, setDimensions] = React.useState({ 
       height: window.innerHeight,
       width: window.innerWidth
@@ -97,6 +107,16 @@ export default function About(props) {
     return (
       <>
       <Carosel />
+      <div style={{
+        margin:'20px'
+      }}>
+      <MissionVission />
+      <Summary 
+        title='Why Join Our Team'
+        content= {myContent} 
+      />
+      </div>
+      
         <div className="container">
           <div className='card'>
             <div className="about">
@@ -123,6 +143,7 @@ export default function About(props) {
                   </h3>  
                    This Business was founded to provide  you with better management software and after-sales services.
                 </p>
+                <p style={{color:'blue'}}>WhatsApp Number: +234 813 873 3881</p>
             </div>
             <Windowresize />
         </div>

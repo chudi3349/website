@@ -3,13 +3,14 @@ import {Carousel} from 'react-bootstrap';
 import Limitless from "../layout/images/limitless.jpg";
 import Team from "../layout/images/team.png";
 import Satisfaction from "../layout/images/satisfaction.jpg"; 
+import './services.scss'
 
 
 export default function Carosel() {
     return (
         <div>
             <Carousel>
-                <Carousel.Item interval={2000}>
+                <Carousel.Item interval={3000}>
                     <img
                     className="d-block w-100"
                     src={Limitless}
@@ -25,8 +26,8 @@ export default function Carosel() {
                     <h2>Limitless</h2>
                     <h4>Never set a limit to what you can achieve</h4>
                     </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item interval={2000}>
+                </Carousel.Item >
+                <Carousel.Item interval={3000}>
                     <img
                     className="d-block w-100"
                     src={Satisfaction}

@@ -5,6 +5,7 @@ import Hotelt from "../layout/images/hotelt.png";
 import "./product.scss";
 import ProductsSummary from './ProductsSummary';
 import SmallResolution from './SmallResolution';
+import ActionButton from './ActionButton';
 
 function debounce(fn, ms) {
     let timer;

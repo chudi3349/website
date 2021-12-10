@@ -11,7 +11,9 @@ export default function ProductsSummary(props) {
     management system a differentiated product that satisfies your needs.
     We are the feature of hotel management systems`
     return (
-        <div>
+        <div style={{
+            marginBottom:'20px'
+        }}>
             <Summary 
              title = 'The future is Now'
              content = {textcontent}
