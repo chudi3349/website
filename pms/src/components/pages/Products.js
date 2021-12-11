@@ -5,7 +5,7 @@ import Hotelt from "../layout/images/hotelt.png";
 import "./product.scss";
 import ProductsSummary from './ProductsSummary';
 import SmallResolution from './SmallResolution';
-import ActionButton from './ActionButton';
+
 
 function debounce(fn, ms) {
     let timer;
@@ -46,24 +46,40 @@ export default function Products(props) {
             className = 'products'
             alignobject= 'right_align'
         />
+        
         <h3 style={{
           textAlign: 'center',
           justifyContent: 'center',
           marginTop: '20px'
         }}>We Have What You Need</h3>
+
         <div className="container">
             <div className="row">
                 <div className="col-6">
                     <ProductCard
                       src={Odoo} 
                       title={"Odoo Hotel Management WebApp"} 
-                      text={"Installation, configuration, customization, integration services and user training of ODOO Hotel management WebApp"} />
+                      text={`Installation, configuration, customization, integration services and user training 
+                      of ODOO Hotel management WebApp`}
+                      cardStyle={{maxWidth: "540px"}} 
+                      style={{
+                        width:'100%',
+                        height: '100%'
+                    }}
+                      />
+                      
                 </div>
                  <div className="col-6">
                     <ProductCard
                       src={Hotelt}
                       title={"Hotel360 WebApp"}
-                      text={'Tailor made friendly user interface, Integration with hotel Electric locks, and many more customizations'}
+                      text={`Tailor made friendly user interface, Integration with hotel Electric locks, and 
+                      many more customizations`}
+                      cardStyle={{maxWidth: "540px"}} 
+                      style={{
+                        width:'100%',
+                        height: '100%'
+                    }}
                     ></ProductCard>
                 </div>
             </div>

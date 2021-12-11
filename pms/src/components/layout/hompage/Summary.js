@@ -4,6 +4,7 @@ export default function Summary(props) {
     return (
         <div className="card text-center" style={{
                 width: '80%',
+                marginTop: '3%',
                 marginLeft: '10%',
                 marginBottom: '50px'
             }}>

@@ -3,16 +3,13 @@ import React from 'react'
 export default function ProductCard(props) {
     return (
         <>
-        <div class="card mb-3 product" style={{maxWidth: "540px"}}>
+        <div class="card mb-3 product" style={props.cardStyle}>
             <div className="row no-gutters">
                 <div className="col-md-4">
                 <img 
                     src={props.src} 
                     alt={props.alt}
-                    style={{
-                        width:'100%',
-                        height: '100%'
-                    }} 
+                    style={props.style} 
                 />
                 </div>
                 <div className="col-md-8">

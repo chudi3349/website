@@ -77,35 +77,37 @@ export default function Services(props) {
               }}>
               Unique Experience At Your Fingertips
             </h3>
-         <div className="card " style={{
-                        width: '80%',
-                        marginLeft: '10%'
-                    }}>
-                    <h5 className="card-header">Dedicated to Your Success</h5>
-                    <div className="card-body" >
-                    Our goal is to provide an experience that will result in lasting business relationships. 
-                    We offer a variety of IT Services/Products based on Your needs. Through research, we
-                    find out the challenges you face and work with you to satisfy your unique business needs.
-                    <br />
-                    <br />
-                    Anyone can design a website. We build you a brand that will give your website visitors the feeling of guests 
-                    and treat your guests with a good experience during their stay on your website.
-                    <br />
-                    <br />
-                    We provide Hotel management software modules based on facts from our research on your most
-                    pressing needs, providing you with the most important business modules for Your operations.
-                    <br />
-                    <br />
-                    We set up Your Electric door Lock keycard system and integrations with management Softwares.
-                    
-                    </div>
-                </div>
+         <div className="card " 
+         style={{
+                width: '80%',
+                marginLeft: '10%',
+                marginTop:'3%'
+            }}>
+              <h5 className="card-header" style={{color:'blue'}}>Dedicated to Your Success</h5>
+              <div className="card-body" >
+              Our goal is to provide an experience that will result in lasting business relationships. 
+              We offer a variety of IT Services/Products based on Your needs. Through research, we
+              find out the challenges you face and work with you to satisfy your unique business needs.
+              <br />
+              <br />
+              Anyone can design a website. We build you a brand that will give your website visitors the feeling of guests 
+              and treat your guests with a good experience during their stay on your website.
+              <br />
+              <br />
+              We provide Hotel management software modules based on facts from our research on your most
+              pressing needs, providing you with the most important business modules for Your operations.
+              <br />
+              <br />
+              We set up Your Electric door Lock keycard system and integrations with management Softwares.
+              
+              </div>
+          </div>
             <div className="container"
                 style={{
                     textAlign: 'center',
                     marginTop: '20px',
                     marginBottom: '20px',
-                    marginLeft: '40px'
+                    marginLeft: '10%'
                 }}
             >
                 <div className="row">

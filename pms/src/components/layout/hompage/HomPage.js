@@ -4,6 +4,7 @@ import Heading from "./Heading";
 import HeroSection from "./HeroSection"
 import SumarryContent from "./SumarryContent";
 import SummaryContentTwo from "./SummaryContentTwo";
+import TaskSummary from "./TaskSummary";
 
 
 
@@ -17,6 +18,7 @@ function Homepage() {
   <HeroSection/>
   <Heading/>
   <SummaryContentTwo />
+  <TaskSummary />
   <SumarryContent />
   <Cards />
   </>
