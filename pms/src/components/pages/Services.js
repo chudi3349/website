@@ -4,8 +4,8 @@ import SmallResolution from './SmallResolution';
 import Webdesign from "../layout/images/webdesign.png";
 import Hotel from "../layout/images/hotelapp.png";
 import Keylock from "../layout/images/keylock.jpg";
+import SumarryContent from '../layout/hompage/SumarryContent';
 import './services.scss'
-import ActionButton from './ActionButton';
 
 
 function debounce(fn, ms) {
@@ -24,22 +24,47 @@ function debounce(fn, ms) {
 
 export default function Services(props) {
   //const {cardTitle, textValue}
+  const webContent = `We provide innovative Custom Web Design For High-End Hotels with Customer Relationship 
+  Management Systems and channel managers for multiple booking platforms, designed to increase hotel revenue 
+  by connecting hotels to customers, managing the many booking sites used for reservation by hotels in real time.`
+
+  const hmsContent = `Eji Tech life services is a hotel management software provider with the mission to provide innovative 
+  management systems with the latest technology for businesses. Our goal is to design a hotel management system to help make 
+  your work easier, successful, and enjoyable. By providing a management solution that keep track of all transactions, 
+  we keep businesses in existence and more importantly, help them thrive, the software is also designed to increase hotel revenue 
+  by improving hoteliers’ customer service and giving a unique experience to guests. This results in creating 
+  more employment and economic growth because we believe that “Our prosperity as a nation depends upon the personal 
+  financial prosperity of each of us as  individuals.”`
+
+  const keyContent = `Eji Tech life services is a hotel management software provider with the mission to provide innovative 
+  management systems with the latest technology for businesses. Our goal is to design a hotel management system to help make 
+  your work easier, successful, and enjoyable. By providing a management solution that keep track of all transactions, 
+  we keep businesses in existence and more importantly, help them thrive, the software is also designed to increase hotel revenue 
+  by improving hoteliers’ customer service and giving a unique experience to guests. This results in creating 
+  more employment and economic growth because we believe that “Our prosperity as a nation depends upon the personal 
+  financial prosperity of each of us as  individuals.”`
     const [services, setservices] = useState({
         cardTitle: "WEB DESIGN AND DEVELOPMENT",
         textValue: "Unique Experience at Your Fingertips.",
-        textButton: "Learn More"
+        textButton: "Learn More",
+        header: `Let's Build Your Web Brand.`,
+        content: webContent
     })
 
     const [secondService, setSecondService] = useState({
         cardTitle: "HOTEL MANAGEMENT WEBAPP",
         textValue: "Smooth Operations for your Hotel Business.",
-        textButton: "Learn More"
+        textButton: "Learn More",
+        header: `Let's Make Your Work Easier`,
+        content: hmsContent
     })
 
     const [thirdService, setThirdService] = useState({
         cardTitle: "ELETRIC KEYLOCK  SETUP",
         textValue: "Stay Strong in Business.",
-        textButton: "Learn More"
+        textButton: "Learn More",
+        header: 'Security Your Home',
+        content: keyContent
     })
 
     const [dimensions, setDimensions] = React.useState({ 
@@ -130,6 +155,7 @@ export default function Services(props) {
                     </div>
                 </div>
             </div>
+           <SumarryContent></SumarryContent>
         </div>
     )
 }

@@ -7,7 +7,9 @@ function Vmcards(props) {
     <div className="card" 
       style={{
         width: "18rem",
-        margin: "30px"
+        marginTop: "30px",
+        marginRight: "30px",
+        marginBottom: "30px"
       }}
     >
       <img src={props.src} className="card-img-top" alt={props.alt} />

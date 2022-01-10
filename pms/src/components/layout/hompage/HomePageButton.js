@@ -29,7 +29,7 @@ export const HomePageButton= ({
     <Link to={`${goto}`} className='btn-mobile' target='_blank'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-        conClick={onClick}
+        onClick={onClick}
         type={type}
         
       >

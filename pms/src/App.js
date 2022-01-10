@@ -10,7 +10,7 @@ import About from "./components/pages/About";
 import Services from "./components/pages/Services";
 import Products from "./components/pages/Products";
 import Footer from "./components/layout/hompage/Footer";
-import SubmitForm from "./components/pages/SubmitForm";
+import {ContactUs} from "./components/pages/ContactUs";
 import ActionButton from "./components/pages/ActionButton";
 
 
@@ -45,7 +45,7 @@ class App extends Component {
             <Route path="/about" component={About} exact />
             <Route path="/services" component={Services} exact />
             <Route path="/products" component={Products} exact />
-            <Route path="/form" component={SubmitForm} exact />
+            <Route path="/form" component={ContactUs} exact />
             <ActionButton />
             <Footer />
           </Router>

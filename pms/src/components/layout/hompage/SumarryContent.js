@@ -8,7 +8,7 @@ export default function SumarryContent(props) {
     we keep businesses in existence and more importantly, help them thrive, the software is also designed to increase hotel revenue 
     by improving hoteliers’ customer service and giving a unique experience to guests. This results in creating 
     more employment and economic growth because we believe that “Our prosperity as a nation depends upon the personal 
-    financial prosperity of each of us as  individuals.”`
+    financial prosperity of each of us as  individuals.” Call Us 08138733881.`
     return (
         <>
             <Summary 

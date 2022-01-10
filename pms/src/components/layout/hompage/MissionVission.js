@@ -7,7 +7,7 @@ import Values from "../images/values.jpg";
 
 function MissionVission(props) {
   return (
-    <div className='container'>
+    <div className='container' style={{marginLeft:'10%'}}>
       <div className="row">
         <Vmcards 
         src={Vision}

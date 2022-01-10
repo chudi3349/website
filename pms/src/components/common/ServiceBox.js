@@ -16,7 +16,7 @@ function MyModal(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          {props.head}
+          {props.header}
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
@@ -39,6 +39,7 @@ function MyModal(props) {
 const  ServiceBox = props => {
     const [services, setServices] = useState(props)
     const [modalShow, setModalShow] = useState(false);
+    const {content, centered, head}  = props;
 
     return (
         <div
@@ -59,6 +60,7 @@ const  ServiceBox = props => {
                     </Card.Text>
                     <Button variant="primary" onClick={() => setModalShow(true)}> {services.textButton} </Button>
                     <MyModal
+                        {...props}
                         show={modalShow}
                         onHide={() => setModalShow(false)}
                     />

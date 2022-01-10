@@ -5,6 +5,7 @@ import HeroSection from "./HeroSection"
 import SumarryContent from "./SumarryContent";
 import SummaryContentTwo from "./SummaryContentTwo";
 import TaskSummary from "./TaskSummary";
+import WebSummary from "./WebSummary";
 
 
 
@@ -19,6 +20,7 @@ function Homepage() {
   <Heading/>
   <SummaryContentTwo />
   <TaskSummary />
+  <WebSummary />
   <SumarryContent />
   <Cards />
   </>

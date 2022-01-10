@@ -15,7 +15,7 @@ function Callus(){
         <>
         <span>
             <p>{contenttext}</p>
-            <Link to='/form' style={{fontSize:'20px'}}>Contact Us</Link>
+            <Link to='/form' style={{fontSize:'20px'}}>Contact Us O8138733881</Link>
         </span>
         </>
     )

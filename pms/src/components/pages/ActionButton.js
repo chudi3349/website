@@ -17,7 +17,7 @@ class ActionButton extends Component {
                 tooltip="The big plus button!"
                 icon="fa fa-plus"
                 rotate={true}
-                onClick={() => alert('FAB Rocks!')} />
+                /* onClick={() => alert('FAB Rocks!')} */ />
         </Container>
     );
   }
