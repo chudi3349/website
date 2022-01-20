@@ -1,5 +1,5 @@
 .cards {
-  padding: 4rem;
+  padding: 5rem;
   background: #fff;
 }
 
@@ -10,6 +10,7 @@ h1 {
 .cards__container {
   display: flex;
   flex-flow: column;
+  align-content: space-evenly;
   align-items: center;
   max-width: 1120px;
   width: 90%;
@@ -18,7 +19,7 @@ h1 {
 
 .cards__wrapper {
   position: relative;
-  margin: 50px 0 45px;
+  margin: 50px  0px 45px;
 }
 
 .cards__items {
@@ -46,8 +47,8 @@ h1 {
 
 .cards__item__pic-wrap {
   position: relative;
-  width: 100%;
-  padding-top: 67%;
+  width: 200%;
+  padding-top: 134%;
   overflow: hidden;
 }
 

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Container, Button, Link } from 'react-floating-action-button'
+import { Container, Button, Link } from 'react-floating-action-button';
 
 
 class ActionButton extends Component {
   render() {
     return (
-        <Container>
+        <Container className="fab-container">
             <Link href="/form"
                 tooltip="Contact Us"
                 icon="fa fa-sticky-note" />
