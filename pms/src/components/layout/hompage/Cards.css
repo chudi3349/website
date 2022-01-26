@@ -19,7 +19,7 @@ h1 {
 
 .cards__wrapper {
   position: relative;
-  margin: 50px  0px 45px;
+  margin: 0px 0px 45px;
 }
 
 .cards__items {
@@ -115,5 +115,34 @@ h1 {
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .cards {
+    padding: 1rem;
+  }
+  .cards__item {
+    margin-bottom: 2rem;
+  }
+  .cards__items {
+    margin-bottom: 24px;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cards__item__img {
+    width: 250px;
+    height: 250px;
+  }
+  .cards__container {
+    width: 80%;
+  }
+  .cards__item__pic-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
   }
 }
